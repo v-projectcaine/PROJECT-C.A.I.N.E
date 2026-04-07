@@ -1,8 +1,13 @@
+@font-face {
+  font-family: 'VCR';
+  src: url('./vcr.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   background: #262626;
   color: white;
-  font-family: monospace;
+  font-family: 'VCR', monospace;
   display: flex;
   justify-content: center;
   align-items: center;
