@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background: #242424;
+  color: white;
+  font-family: 'Press Start 2P', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.project-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #f2f2f2;
+}
+
+.caine-title {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.white {
+  color: #f2f2f2;
+}
+
+.red {
+  color: #ff4b4b;
+}
+
+.blue {
+  color: #66a3ff;
+}
+
+@media (max-width: 768px) {
+  .project-title,
+  .caine-title {
+    font-size: 1.4rem;
+  }
+
+  .subtitle {
+    font-size: 0.55rem;
+    line-height: 1.8;
+  }
+}
