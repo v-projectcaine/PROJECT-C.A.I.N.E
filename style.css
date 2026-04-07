@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'VCR';
-  src: url('./vcr.ttf') format('truetype');
+  src: url('vcr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -48,7 +50,8 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  h1, .title-line {
+  h1,
+  .title-line {
     font-size: 24px;
   }
 
