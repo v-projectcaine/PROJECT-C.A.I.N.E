@@ -8,7 +8,7 @@
 body {
   margin: 0;
   background: #262626;
-  color: white;
+  color: #f2f2f2;
   font-family: 'VCR', monospace;
   display: flex;
   justify-content: center;
@@ -22,19 +22,29 @@ body {
 }
 
 h1 {
-  font-size: 56px;
-  margin-bottom: 30px;
+  margin: 0 0 6px 0;
+  font-size: 64px;
+  font-weight: normal;
   color: #f2f2f2;
+  line-height: 1;
 }
 
 .title-line {
-  font-size: 54px;
-  line-height: 1.4;
+  font-size: 74px;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .subtitle {
-  margin-top: 18px;
+  margin: 6px 0 0 0;
   font-size: 14px;
+  line-height: 1.2;
+}
+
+.bars {
+  display: inline-block;
+  margin: 0 10px;
+  color: #f2f2f2;
 }
 
 .white {
@@ -42,21 +52,27 @@ h1 {
 }
 
 .red {
-  color: #ff5252;
+  color: #ff5a5a;
 }
 
 .blue {
-  color: #6ca8ff;
+  color: #6ea8ff;
 }
 
 @media (max-width: 768px) {
-  h1,
+  h1 {
+    font-size: 34px;
+  }
+
   .title-line {
-    font-size: 24px;
+    font-size: 38px;
   }
 
   .subtitle {
-    font-size: 8px;
-    line-height: 1.8;
+    font-size: 9px;
+  }
+
+  .bars {
+    margin: 0 6px;
   }
 }
