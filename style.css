@@ -1,34 +1,38 @@
+@font-face {
+  font-family: 'VCR';
+  src: url('VCR_OSD_MONO_1.001.ttf') format('truetype');
+}
+
 body {
   margin: 0;
-  background: #242424;
+  background: #262626;
   color: white;
-  font-family: 'Press Start 2P', monospace;
+  font-family: 'VCR', monospace;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
-.hero {
+.container {
   text-align: center;
   padding: 20px;
 }
 
-.project-title {
-  font-size: 3rem;
+h1 {
+  font-size: 56px;
   margin-bottom: 30px;
   color: #f2f2f2;
 }
 
-.caine-title {
-  font-size: 3rem;
-  margin: 0;
+.title-line {
+  font-size: 54px;
   line-height: 1.4;
 }
 
 .subtitle {
-  margin-top: 20px;
-  font-size: 0.9rem;
+  margin-top: 18px;
+  font-size: 14px;
 }
 
 .white {
@@ -36,21 +40,20 @@ body {
 }
 
 .red {
-  color: #ff4b4b;
+  color: #ff5252;
 }
 
 .blue {
-  color: #66a3ff;
+  color: #6ca8ff;
 }
 
 @media (max-width: 768px) {
-  .project-title,
-  .caine-title {
-    font-size: 1.4rem;
+  h1, .title-line {
+    font-size: 24px;
   }
 
   .subtitle {
-    font-size: 0.55rem;
+    font-size: 8px;
     line-height: 1.8;
   }
 }
