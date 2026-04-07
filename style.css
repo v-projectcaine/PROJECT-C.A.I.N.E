@@ -59,6 +59,15 @@ h1 {
   color: #6ea8ff;
 }
 
+.copyright {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: #9a9a9a;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 34px;
@@ -74,5 +83,10 @@ h1 {
 
   .bars {
     margin: 0 6px;
+  }
+
+  .copyright {
+    font-size: 8px;
+    bottom: 8px;
   }
 }
